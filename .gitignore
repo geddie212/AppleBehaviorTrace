@@ -60,3 +60,34 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Local OS files
+.DS_Store
+**/.DS_Store
+
+# Environment and local credentials
+.env
+.env.*
+!.env.example
+*.local
+*credentials*
+*credential*
+*secret*
+*secrets*
+
+# Supabase local state and generated credentials
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+supabase/.env.*
+supabase_credentials
+
+# Apple signing and service credentials
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+ExportOptions.plist
+GoogleService-Info.plist
+Service-Info.plist
